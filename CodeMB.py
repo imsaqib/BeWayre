@@ -200,7 +200,7 @@ for j in range(len(js['response']['route'])):
     lat.append(lt)
     lng.append(ln)
 p=[]
-data = pd.read_csv("C:/Users/Hp/Downloads/ans/data_temp.csv")
+data = pd.read_csv("~/Data/data_temp.csv")
 l = [i for i in range(425)]+[-1]
 lt0 = []
 lg0 = []
@@ -209,7 +209,7 @@ for i in l:
   lg0.append(data[data.cluster == i].mean()[1])
 r=.03
 
-data1=pd.read_csv("C:/Users/Hp/Downloads/ans/data_temp (1).csv")
+data1=pd.read_csv("~/Data/data_temp (1).csv")
 l1 = [i for i in range(230)]+[-1]
 lt1 = []
 lg1 = []
