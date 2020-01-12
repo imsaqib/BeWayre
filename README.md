@@ -1,15 +1,12 @@
 # BeWayre
 
-This is a simple Python app to predict the safest path between 2 points.
+This is a simple Python app to predict the safest path between 2 points of __UK only__.
+
 In order to run this app:
 
- a) This repo has to be downloaded into the local system
+ -- This repo has to be downloaded into the local system
  
- b) Then Run the script "CodeMB.py"
- 
- -- The safest route will be plotted on a map displayed in a web browser.
- 
- Libraries used:
+-- Libraries used:
  -urllib
  
  -json
@@ -24,4 +21,14 @@ In order to run this app:
  
  -numpy
  
- Steps to install libraries- _pip install library_name_
+ --Steps to install libraries- _pip install library_name_
+ 
+ --Change the path of files in the CodeMB.py in line_203 & 212
+ 
+ --Then Run the script "CodeMB.py"
+ 
+ -- The safest route will be plotted on a map displayed in a web browser.
+ 
+ 
+ 
+ 
