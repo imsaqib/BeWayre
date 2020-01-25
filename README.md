@@ -1,6 +1,6 @@
 # BeWayre
 
-This is a simple Python app to predict the safest path between 2 points of __UK only__.
+This is a simple Flask app to predict the safest path between 2 points of __UK only__.
 
 In order to run this app:
 
@@ -21,6 +21,8 @@ In order to run this app:
  -webbrowser
  
  -numpy
+ 
+ -flask
  
  --Steps to install libraries- _pip install library_name_
  
